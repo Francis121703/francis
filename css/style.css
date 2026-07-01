@@ -9,6 +9,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     font-size: 25px;
+    background: aliceblue;
 }
 
 nav a{
@@ -16,19 +17,79 @@ nav a{
     font-weight: 600;
 }
 
-/* article{
+.main-aside{
     display: flex;
-    align-items: center;
+    gap: 200px;
 }
 
-article .article-details{
-    margin-left: 20px;
-    margin-top: 20px;
-} */
+.header-content{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    text-align: justify;
+    gap: calc(100% / 2 - 10px);
+}
 
 aside{
-    display: flex; 
-    flex-direction: column;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    width: 300px;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+}
+ 
+.article-1{
+    display: flex;
+    align-items: center;
+    gap: calc(100% / 6 - 1px);
+}
+
+.article-2{
+    display: flex;
+    align-items: center;
+    gap: calc(100% / 6 - 1px);
+    
+}
+
+.article-3{
+    display: flex;
+    align-items: center;
+    gap: calc(100% / 6 - 1px);
+    
+}
+ 
+main{
+    justify-content: space-evenly;
 
 }
+
+.ai img{
+    height: 300px;
+    width: 300px;
+    border: 10px;
+    border-radius: 12px;
+}
+
+.web img{
+    height: 300px;
+    width: 300px;
+    border: 10px;
+    border-radius: 12px;
+}
+
+.security img{
+    height: 300px;
+    width: 300px;
+    border: 10px;
+    border-radius: 12px;
+}
+
+article button{
+    color: black;
+}
+
+
+
+
 
